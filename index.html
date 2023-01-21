@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
+   
+    <link rel="stylesheet" href="style.css">
 <style>
     html {
         margin: 0;
@@ -16,19 +19,27 @@
         overflow: auto;
     }
 </style>
+    </head>
 
-<body>
+<body id="ada1">
+    
     <center>
         <img src="" id="img-logo">
         <h1 id="domain">loading</h1>
-        <h2 id="url">loading</h2>
+        
+        <div id="pie-chart"></div>
+        <a id="ada" href="home.html" target="_blank">Detailed Analytics</a>
 
     </center>
 
     <script src="jquery-3.6.3.min.js"></script>
     <script src="basic.js"></script>
     <script src="test.js"></script>
-
+    <script src="chart.js"></script>
+    <script src="home.js"></script>
+    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+   
+    
 </body>
 
 </html>
