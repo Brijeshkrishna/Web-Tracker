@@ -1,1 +1,13 @@
 #pie-chart{ height:200px; width: 200px; border-radius: 50%; background: conic-gradient(brown 0.00%, black 0.00% 0.55%, blue 0.55% 6.08%, green 6.08% 13.68%, yellow 13.68% 23.27%, orange 23.27% 40.47%, red 40.47%); }#pie-chart{ height:200px; width: 200px; border-radius: 50%; background: conic-gradient(brown 0.00%, black 0.00% 0.55%, blue 0.55% 6.08%, green 6.08% 13.68%, yellow 13.68% 23.27%, orange 23.27% 40.47%, red 40.47%); }#pie-chart{ height:200px; width: 200px; border-radius: 50%; background: conic-gradient(brown 0.00%, black 0.00% 0.55%, blue 0.55% 6.08%, green 6.08% 13.68%, yellow 13.68% 23.27%, orange 23.27% 40.47%, red 40.47%); }#pie-chart{ height:200px; width: 200px; border-radius: 50%; background: conic-gradient(brown 0.00%, black 0.00% 0.55%, blue 0.55% 6.08%, green 6.08% 13.68%, yellow 13.68% 23.27%, orange 23.27% 40.47%, red 40.47%); }
+
+#ada{
+    position: fixed;
+    left: 100px;
+    top: 20px;
+    background-color: #ffff00;
+    border-radius: 10%;
+}
+/*#ada1{
+    width: 200px;
+    height: 50px;
+}*/
