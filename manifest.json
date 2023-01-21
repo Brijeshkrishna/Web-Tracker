@@ -3,7 +3,13 @@
     "name": "Web Track",
     "version": "1.0",
     "permissions": [
-        "activeTab"
+        "tabs",
+        "activeTab",
+        "storage",
+        "idle",
+        "chrome://favicon/*",
+        "webNavigation",
+        "unlimitedStorage"
     ],
     "browser_action": {
         "default_popup": "index.html"
