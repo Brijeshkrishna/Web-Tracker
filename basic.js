@@ -1,4 +1,3 @@
-
 function getdomain(url) {
     const regex = /^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n]+)/im;
     const domain = String(url.match(regex)[1].split('.')[0]);
@@ -22,7 +21,4 @@ function getdomain(url) {
     document.getElementById("domain").innerHTML = getdomain(currentUrl.url);
     document.getElementById("url").innerHTML = await getip();
   });
-  
-  
-  
   
